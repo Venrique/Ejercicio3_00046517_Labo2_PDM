@@ -8,21 +8,30 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/rojo"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#ff0000"/>
+        android:background="@color/r0"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
 
     <TextView
+        android:id="@+id/verde"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#00ff00"/>
+        android:background="@color/v1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
 
     <TextView
+        android:id="@+id/azul"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#0000ff"/>
+        android:background="@color/a1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
 
 </LinearLayout>
